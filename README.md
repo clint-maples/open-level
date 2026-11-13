@@ -1,4 +1,4 @@
-[Download Open Level 0.1.0 (APK)](https://github.com/clint-maples/open-level/releases/download/v0.1.0/OpenLevel-0.1.0.apk)
+[Download Open Level 0.2.0 (APK)](https://github.com/clint-maples/open-level/releases/download/v0.2.0/OpenLevel-0.2.0.apk)
 
 # Open Level
 
@@ -24,11 +24,13 @@ Lay the phone flat to read a surface, or stand it on its edge to check a wall or
 Android 8.0 or newer is required. Download the APK linked above and open it. You may need to allow your browser or file manager to install apps.
 
 - Package: `com.clintmaples.openlevel`
-- Version: 0.1.0 (versionCode 1)
+- Version: 0.2.0 (versionCode 2)
+
+The signed Android App Bundle for the same version is `OpenLevel-0.2.0.aab` on the [v0.2.0 release](https://github.com/clint-maples/open-level/releases/tag/v0.2.0). A Play listing draft is in [play-store/listing.md](play-store/listing.md). It has not been published to Google Play.
 
 ## Privacy
 
-Open Level does not show ads, does not sell a premium upgrade, and does not collect analytics. The manifest does not request the internet permission, and the app does not send or receive network traffic. Calibration, the haptic preference, and the degrees/percent choice stay in app-private storage on the device.
+Open Level does not show ads, does not sell a premium upgrade, and does not collect analytics. The manifest does not request the internet permission, and the app does not send or receive network traffic. It reads the gravity sensor, or the accelerometer when the device has no gravity sensor. It does not use the gyroscope or the rotation vector. Calibration, the haptic preference, and the degrees/percent choice stay in app-private storage on the device. The full policy is [PRIVACY.md](PRIVACY.md).
 
 ## Build
 
@@ -38,7 +40,7 @@ The project is Kotlin and Jetpack Compose. JDK 17 or newer and Android SDK 35 ar
 ./gradlew test lint assembleDebug
 ```
 
-A release APK is signed only when these environment variables are set. The path must be the absolute path of the release keystore. If any of them is missing, `assembleRelease` fails and does not fall back to the debug keystore.
+A release APK or App Bundle is signed only when these environment variables are set. The path must be the absolute path of the release keystore. If any of them is missing, `assembleRelease` and `bundleRelease` fail and do not fall back to the debug keystore.
 
 - `CLINT_ANDROID_KEYSTORE`
 - `CLINT_ANDROID_STORE_PASSWORD`
@@ -46,10 +48,10 @@ A release APK is signed only when these environment variables are set. The path 
 - `CLINT_ANDROID_KEY_PASSWORD`
 
 ```bash
-./gradlew assembleRelease
+./gradlew assembleRelease bundleRelease
 ```
 
-The signed APK is written to `app/build/outputs/apk/release/`. Keystores, `keystore.properties`, and signing bundles are gitignored. This repository is private and should stay private.
+The signed APK is written to `app/build/outputs/apk/release/`. The signed App Bundle is written to `app/build/outputs/bundle/release/`. Release builds are not debuggable, and R8 shrinking is off. Keystores, `keystore.properties`, and signing bundles are gitignored. This repository is private and should stay private.
 
 ## License
 

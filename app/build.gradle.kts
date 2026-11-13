@@ -27,8 +27,8 @@ android {
         applicationId = "com.clintmaples.openlevel"
         minSdk = 26
         targetSdk = 35
-        versionCode = 1
-        versionName = "0.1.0"
+        versionCode = 2
+        versionName = "0.2.0"
     }
 
     signingConfigs {
@@ -44,7 +44,11 @@ android {
 
     buildTypes {
         release {
+            // Play upload: not debuggable, and R8 stays off until a shrink pass is tested.
+            isDebuggable = false
+            isJniDebuggable = false
             isMinifyEnabled = false
+            isShrinkResources = false
             if (releaseSigningReady) {
                 signingConfig = signingConfigs.getByName("release")
             }
