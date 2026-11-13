@@ -18,7 +18,9 @@ Bubble level with a bullseye, tube vials, and edge mode. No ads or internet.
 
 ## Full description
 
-(4000 character limit.)
+(4000 character limit. This draft is 1618 characters.)
+
+I got tired of simple tools that come loaded with ads, ask for permissions they don't need, or quietly collect your data. So every app I make is truly free and open source: no ads, no suspicious permissions, no data collection, no accounts, and no freemium paywalls. Every feature is free, and the code is public so you can check for yourself. Just honest, free, open source apps.
 
 Open Level is a bubble level for Android.
 
@@ -30,4 +32,6 @@ The bubble turns green when the reading is within 0.5 degrees of level. If hapti
 
 The app reads the gravity sensor when the device has one, and the accelerometer otherwise. It does not use a gyroscope or a rotation-vector sensor. Readings stay on the device. If a device has neither sensor, Open Level says so instead of showing a false angle.
 
-There are no ads and no account. The app does not request the internet permission and does not use the network. The project is maintained privately and this listing is not a public source release.
+There are no ads and no account. The app does not request the internet permission and does not use the network.
+
+Open Level is open source under the MIT License. Source code: https://github.com/clint-maples/open-level
