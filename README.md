@@ -2,6 +2,10 @@
 
 # Open Level
 
+## Why
+
+I got tired of simple tools that come loaded with ads, ask for permissions they don't need, or quietly collect your data. So every app I make is truly free and open source: no ads, no suspicious permissions, no data collection, no accounts, and no freemium paywalls. Every feature is free, and the code is public so you can check for yourself. Just honest, free, open source apps.
+
 Open Level is a digital bubble level for Android. It is free, fully usable offline, and has no ads, no account, and no paid tier.
 
 Lay the phone flat to read a surface, or stand it on its edge to check a wall or a shelf. The app reads the gravity sensor when the device has one, and the accelerometer otherwise. A low-pass filter keeps the reading steady without making it feel late.
@@ -26,7 +30,9 @@ Android 8.0 or newer is required. Download the APK linked above and open it. You
 - Package: `com.clintmaples.openlevel`
 - Version: 0.2.0 (versionCode 2)
 
-The signed Android App Bundle for the same version is `OpenLevel-0.2.0.aab` on the [v0.2.0 release](https://github.com/clint-maples/open-level/releases/tag/v0.2.0). A Play listing draft is in [play-store/listing.md](play-store/listing.md). It has not been published to Google Play.
+The signed Android App Bundle for the same version is `OpenLevel-0.2.0.aab` on the [v0.2.0 release](https://github.com/clint-maples/open-level/releases/tag/v0.2.0). A Play listing draft is in [play-store/listing.md](play-store/listing.md).
+
+Get it on Google Play: Play listing coming soon.
 
 ## Privacy
 
@@ -51,8 +57,8 @@ A release APK or App Bundle is signed only when these environment variables are 
 ./gradlew assembleRelease bundleRelease
 ```
 
-The signed APK is written to `app/build/outputs/apk/release/`. The signed App Bundle is written to `app/build/outputs/bundle/release/`. Release builds are not debuggable, and R8 shrinking is off. Keystores, `keystore.properties`, and signing bundles are gitignored. This repository is private and should stay private.
+The signed APK is written to `app/build/outputs/apk/release/`. The signed App Bundle is written to `app/build/outputs/bundle/release/`. Release builds are not debuggable, and R8 shrinking is off. Keystores, `keystore.properties`, and signing bundles are gitignored.
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+Open Level is released under the MIT License. See [LICENSE](LICENSE).
