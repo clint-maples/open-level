@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Open Level</string>
+    <string name="mode_surface">Surface</string>
+    <string name="mode_edge">Edge</string>
+    <string name="calibrate">Calibrate</string>
+    <string name="reset">Reset</string>
+    <string name="hold">Hold</string>
+    <string name="holding">Holding</string>
+    <string name="show_degrees">Degrees</string>
+    <string name="show_percent">Percent</string>
+    <string name="haptics">Haptics</string>
+    <string name="axis_x">X</string>
+    <string name="axis_y">Y</string>
+    <string name="right_high">Right high</string>
+    <string name="left_high">Left high</string>
+    <string name="top_high">Top high</string>
+    <string name="bottom_high">Bottom high</string>
+    <string name="level_word">Level</string>
+    <string name="from_vertical">From vertical</string>
+    <string name="from_horizontal">From horizontal</string>
+    <string name="zeroed">Zeroed</string>
+    <string name="edge_ready_hint">Set the phone on its edge, or stand it against the surface.</string>
+    <string name="edge_need_pose">Stand the phone up, or lay it on its edge, to read this angle.</string>
+    <string name="sensor_unavailable_title">No tilt sensor</string>
+    <string name="sensor_unavailable_body">This device has no gravity sensor or accelerometer, so Open Level cannot measure tilt.</string>
+    <string name="using_gravity">Gravity sensor</string>
+    <string name="using_accelerometer">Accelerometer</string>
+    <string name="tolerance_caption">Green within ±%1$.1f°</string>
+    <string name="reset_title">Reset calibration?</string>
+    <string name="reset_body">X, Y, and the edge angle will measure from true level again.</string>
+    <string name="reset_confirm">Reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="calibrated_surface">This position is now zero.</string>
+    <string name="calibrated_edge">Edge zero set to this position.</string>
+    <string name="calibration_reset">Calibration reset.</string>
+    <string name="held_banner">Reading held</string>
+    <string name="bullseye_description">Bullseye level. X %1$s, Y %2$s. %3$s.</string>
+    <string name="vial_horizontal_description">Horizontal vial. %1$s.</string>
+    <string name="vial_vertical_description">Vertical vial. %1$s.</string>
+    <string name="edge_description">Edge level. %1$s %2$s.</string>
+    <string name="not_level">Not level</string>
+</resources>

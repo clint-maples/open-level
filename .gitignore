@@ -1,0 +1,23 @@
+*.iml
+.gradle/
+local.properties
+.idea/
+.DS_Store
+build/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.ap_
+*.aab
+output-metadata.json
+*.hprof
+
+# Signing material. Never commit keystores or signing bundles.
+*.jks
+*.keystore
+*.p12
+keystore.properties
+signing/
+*.zip
