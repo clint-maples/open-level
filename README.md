@@ -1,6 +1,6 @@
-[Download Open Level 0.3.0 (APK)](https://github.com/clint-maples/open-level/releases/download/v0.3.0/OpenLevel-0.3.0.apk)
+[Download Open Level 0.3.1 (APK)](https://github.com/clint-maples/open-level/releases/download/v0.3.1/OpenLevel-0.3.1.apk)
 
-Previous: [0.2.0](https://github.com/clint-maples/open-level/releases/download/v0.2.0/OpenLevel-0.2.0.apk) · [0.1.0](https://github.com/clint-maples/open-level/releases/download/v0.1.0/OpenLevel-0.1.0.apk)
+Previous: [0.3.0](https://github.com/clint-maples/open-level/releases/download/v0.3.0/OpenLevel-0.3.0.apk) · [0.2.0](https://github.com/clint-maples/open-level/releases/download/v0.2.0/OpenLevel-0.2.0.apk) · [0.1.0](https://github.com/clint-maples/open-level/releases/download/v0.1.0/OpenLevel-0.1.0.apk)
 
 # Open Level
 
@@ -30,11 +30,11 @@ Lay the phone flat to read a surface, or stand it on its edge to check a wall or
 Android 8.0 or newer is required. Download the APK linked above and open it. You may need to allow your browser or file manager to install apps.
 
 - Package: `foundation.islf.openlevel`
-- Version: 0.3.0 (versionCode 3)
+- Version: 0.3.1 (versionCode 4)
 
-The application id changed in 0.3.0 from `com.clintmaples.openlevel`. 0.3.0 installs as a new app and will not replace 0.1.0 or 0.2.0 in place.
+The application id changed in 0.3.0 from `com.clintmaples.openlevel`. 0.3.1 upgrades 0.3.0 in place, but will not replace 0.1.0 or 0.2.0.
 
-The signed Android App Bundle for the same version is `OpenLevel-0.3.0.aab` on the [v0.3.0 release](https://github.com/clint-maples/open-level/releases/tag/v0.3.0). A Play listing draft is in [play-store/listing.md](play-store/listing.md).
+The signed Android App Bundle for the same version is `OpenLevel-0.3.1.aab` on the [v0.3.1 release](https://github.com/clint-maples/open-level/releases/tag/v0.3.1). A Play listing draft is in [play-store/listing.md](play-store/listing.md).
 
 Get it on Google Play: Play listing coming soon.
 

@@ -21,14 +21,17 @@ val releaseSigningReady = requiredSigningEnv.all { !System.getenv(it).isNullOrBl
 
 android {
     namespace = "com.clintmaples.openlevel"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "foundation.islf.openlevel"
         minSdk = 26
-        targetSdk = 35
-        versionCode = 3
-        versionName = "0.3.0"
+        targetSdk = 36
+        versionCode = 4
+        versionName = "0.3.1"
+        ndk {
+            debugSymbolLevel = "SYMBOL_TABLE"
+        }
     }
 
     signingConfigs {
