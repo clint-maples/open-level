@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.0
+
+- Version code 3. The application id is now `foundation.islf.openlevel`. Earlier releases used `com.clintmaples.openlevel`, so 0.3.0 installs as a separate app and will not upgrade 0.1.0 or 0.2.0 in place.
+- Same level behavior as 0.2.0.
+
 ## 0.2.0
 
 - Version code 2. Same level behavior as 0.1.0, packaged for a Play App Bundle upload.
