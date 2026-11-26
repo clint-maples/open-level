@@ -1,6 +1,6 @@
 # Play Data safety answers (draft)
 
-These answers match the app as of version 0.3.0. They have not been submitted in Play Console.
+These answers match the app as of version 0.3.1. They have not been submitted in Play Console.
 
 Play treats data as collected only when it is transmitted off the device. Open Level does not do that.
 

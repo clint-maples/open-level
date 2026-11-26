@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.1
+
+- Version code 4. Targets and compiles against API 36 so the Play production upload meets the current target API requirement.
+- Android Gradle Plugin bumped from 8.7.3 to 8.10.1, which is the toolchain needed for compileSdk 36. Gradle 8.11.1 is unchanged.
+- Same level behavior and application id (`foundation.islf.openlevel`) as 0.3.0.
+
 ## 0.3.0
 
 - Version code 3. The application id is now `foundation.islf.openlevel`. Earlier releases used `com.clintmaples.openlevel`, so 0.3.0 installs as a separate app and will not upgrade 0.1.0 or 0.2.0 in place.
