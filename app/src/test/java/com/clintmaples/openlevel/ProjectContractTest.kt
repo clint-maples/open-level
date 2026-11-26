@@ -18,9 +18,9 @@ class ProjectContractTest {
     @Test
     fun releaseBuildIsPinnedAndDoesNotFallBackToTheDebugKey() {
         val gradle = find("build.gradle.kts", "app/build.gradle.kts").readText()
-        assertTrue(gradle.contains("applicationId = \"com.clintmaples.openlevel\""))
-        assertTrue(gradle.contains("versionName = \"0.2.0\""))
-        assertTrue(gradle.contains("versionCode = 2"))
+        assertTrue(gradle.contains("applicationId = \"foundation.islf.openlevel\""))
+        assertTrue(gradle.contains("versionName = \"0.3.0\""))
+        assertTrue(gradle.contains("versionCode = 3"))
         assertTrue(gradle.contains("minSdk = 26"))
         assertTrue(gradle.contains("targetSdk = 35"))
         assertTrue(gradle.contains("isDebuggable = false"))
